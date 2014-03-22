@@ -4,7 +4,7 @@
   "description": "Convert node style callbacks into a promiscuous promise",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/insidewarehouse/promiscuous-denodeify/issues"
   },
-  "homepage": "https://github.com/insidewarehouse/promiscuous-denodeify"
+  "homepage": "https://github.com/insidewarehouse/promiscuous-denodeify",
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "referee": "^1.0.2"
+  },
+  "peerDependencies": {
+    "promiscuous": "^0.6.0"
+  }
 }
