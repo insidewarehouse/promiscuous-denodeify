@@ -1,6 +1,6 @@
 {
   "name": "promiscuous-denodeify",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Convert node style callbacks into a promiscuous promise",
   "main": "index.js",
   "scripts": {
