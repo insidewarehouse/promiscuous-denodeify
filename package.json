@@ -13,17 +13,17 @@
   "keywords": [
     "promises"
   ],
-  "author": "Dominykas Blyžė, Future Retail",
+  "author": "Dominykas Blyžė, InsideWarehouse UAB",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/insidewarehouse/promiscuous-denodeify/issues"
   },
   "homepage": "https://github.com/insidewarehouse/promiscuous-denodeify",
   "devDependencies": {
-    "mocha": "^1.18.2",
-    "referee": "^1.0.2"
+    "mocha": "3.x",
+    "referee": "1.x"
   },
   "peerDependencies": {
-    "promiscuous": "^0.6.0"
+    "promiscuous": "0.6.x, 0.7.x"
   }
 }
